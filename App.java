@@ -38,6 +38,10 @@ public class App {
         else if(M>100000){
             M=100000;
         }
+        //Compare M and N
+        if(M>N){
+            M=N;
+        }
         //Declare the array 
         int [] intArray = new int[N];
         //Get input (Integers)
